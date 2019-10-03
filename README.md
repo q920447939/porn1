@@ -1,6 +1,6 @@
 ## 效果图
 
-![1570083411744](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1570083411744.png)
+![1570083411744](./1570083411744.png)
 
 
 
