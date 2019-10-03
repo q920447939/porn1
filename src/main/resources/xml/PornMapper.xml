@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="spring.io.porn.mapper.PornMapper">
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="spring.io.porn.entity.Porn">
+        <id column="id" property="id" />
+        <result column="date" property="date" />
+        <result column="title" property="title" />
+        <result column="down_url" property="downUrl" />
+        <result column="source_img_url" property="sourceImgUrl" />
+<!--        <result column="local_img" property="localImg" />-->
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+ 		id ,date ,title ,down_url ,source_img_url
+ 		/*,local_img*/
+    </sql>
+
+</mapper>
