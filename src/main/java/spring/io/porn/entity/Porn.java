@@ -37,9 +37,5 @@ public class Porn implements Serializable {
 	@TableField("source_img_url")
 	private String sourceImgUrl;
 
-	@TableField("local_img")
-	private Blob localImg;
-
-
 
 }

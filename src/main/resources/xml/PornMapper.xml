@@ -8,13 +8,11 @@
         <result column="title" property="title" />
         <result column="down_url" property="downUrl" />
         <result column="source_img_url" property="sourceImgUrl" />
-<!--        <result column="local_img" property="localImg" />-->
     </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
  		id ,date ,title ,down_url ,source_img_url
- 		/*,local_img*/
     </sql>
 
 </mapper>
